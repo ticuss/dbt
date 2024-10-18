@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: people
+    description: "A starter dbt model"
+    columns:
+      - name: id
+      - name: id,
+      - name: name,
+      - name: age,
+      - name: email
+
+  - name: ref_to_people
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
